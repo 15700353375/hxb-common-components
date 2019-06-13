@@ -1,8 +1,7 @@
 {
   "name": "hxb-common-components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
-  "homepage": "./",
   "main": "./dist/hxb-common-components.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
