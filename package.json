@@ -1,14 +1,24 @@
 {
   "name": "hxb-common-components",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "./dist/hxb-common-components.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name hxb-common-components ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "dependencies": {
     "core-js": "^2.6.5",
+    "iview": "^3.4.2",
     "vue": "^2.6.10"
   },
   "devDependencies": {
