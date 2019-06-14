@@ -1399,7 +1399,34 @@ var HelloWorld_component = normalizeComponent(
 )
 
 /* harmony default export */ var HelloWorld = (HelloWorld_component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"44b0dc9f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/TopBar.vue?vue&type=template&id=65c10c9f&
+var TopBarvue_type_template_id_65c10c9f_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var TopBarvue_type_template_id_65c10c9f_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',[_vm._v("I'm TopBar")])])}]
+
+
+// CONCATENATED MODULE: ./src/components/TopBar.vue?vue&type=template&id=65c10c9f&
+
+// CONCATENATED MODULE: ./src/components/TopBar.vue
+
+var TopBar_script = {}
+
+
+/* normalize component */
+
+var TopBar_component = normalizeComponent(
+  TopBar_script,
+  TopBarvue_type_template_id_65c10c9f_render,
+  TopBarvue_type_template_id_65c10c9f_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var TopBar = (TopBar_component.exports);
 // CONCATENATED MODULE: ./src/components/index.js
+
 
 
 
@@ -1409,7 +1436,8 @@ var HelloWorld_component = normalizeComponent(
 
 var Components = {
   Header: Header,
-  HelloWorld: HelloWorld
+  HelloWorld: HelloWorld,
+  TopBar: TopBar
 };
 Object.keys(Components).forEach(function (name) {
   external_commonjs_vue_commonjs2_vue_root_Vue_default.a.component(name, Components[name]);
