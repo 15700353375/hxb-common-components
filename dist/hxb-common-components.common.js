@@ -1390,24 +1390,36 @@ var HelloWorld_component = normalizeComponent(
 )
 
 /* harmony default export */ var HelloWorld = (HelloWorld_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"44b0dc9f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/TopBar.vue?vue&type=template&id=65c10c9f&
-var TopBarvue_type_template_id_65c10c9f_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
-var TopBarvue_type_template_id_65c10c9f_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',[_vm._v("I'm TopBar")])])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"44b0dc9f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/TopBar.vue?vue&type=template&id=360e417c&
+var TopBarvue_type_template_id_360e417c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var TopBarvue_type_template_id_360e417c_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',[_vm._v("I'm TopBar")])])}]
 
 
-// CONCATENATED MODULE: ./src/components/TopBar.vue?vue&type=template&id=65c10c9f&
+// CONCATENATED MODULE: ./src/components/TopBar.vue?vue&type=template&id=360e417c&
 
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/TopBar.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+/* harmony default export */ var TopBarvue_type_script_lang_js_ = ({
+  name: 'TopBar'
+});
+// CONCATENATED MODULE: ./src/components/TopBar.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_TopBarvue_type_script_lang_js_ = (TopBarvue_type_script_lang_js_); 
 // CONCATENATED MODULE: ./src/components/TopBar.vue
 
-var TopBar_script = {}
+
+
 
 
 /* normalize component */
 
 var TopBar_component = normalizeComponent(
-  TopBar_script,
-  TopBarvue_type_template_id_65c10c9f_render,
-  TopBarvue_type_template_id_65c10c9f_staticRenderFns,
+  components_TopBarvue_type_script_lang_js_,
+  TopBarvue_type_template_id_360e417c_render,
+  TopBarvue_type_template_id_360e417c_staticRenderFns,
   false,
   null,
   null,
